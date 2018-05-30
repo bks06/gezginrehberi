@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "807983844009",
+    "firebase_url": "https://tezson-2fc27.firebaseio.com",
+    "project_id": "tezson-2fc27",
+    "storage_bucket": "tezson-2fc27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807983844009:android:c8020575ce663343",
+        "android_client_info": {
+          "package_name": "com.example.alica.gezgin80"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807983844009-r9s15n62b0aabm78u2odfe34hm23p6ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alica.gezgin80",
+            "certificate_hash": "ff071acd27b4062c6b669a58f564a19aea6d7fbc"
+          }
+        },
+        {
+          "client_id": "807983844009-gbso2ittb45ucrog2gjn5o3s8obtmbb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwW-guzUz9_i2q_dQ9S-srZgdzDMggNsM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807983844009-gbso2ittb45ucrog2gjn5o3s8obtmbb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
