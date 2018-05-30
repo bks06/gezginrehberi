@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.gms.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/inceleExp"
+        android:background="@drawable/content_bg"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1">
+
+    </com.google.android.gms.maps.MapView>
+
+
+    <TextView
+        android:id="@+id/inceleHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:background="@drawable/content_bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/inceleExp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="70dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/content_bg"
+        android:clickable="false"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_gotur"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/mapView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_bg"
+        android:text="Götür" />
+</RelativeLayout>

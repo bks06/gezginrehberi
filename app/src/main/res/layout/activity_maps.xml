@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_gravity="bottom"
+    tools:context=".MapsActivity" />-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:background="#EAEAFF"
+    tools:context=".MapsActivity">
+
+    <Button
+        android:id="@+id/activity_maps_btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:background="@drawable/button_bg"
+        android:text="Ekle" />
+
+    <Button
+        android:id="@+id/activity_maps_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="88dp"
+        android:background="@drawable/button_bg"
+        android:text="Kaydet" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/content_bg">
+
+        <EditText
+            android:id="@+id/activity_maps_textview_location3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="Başlık" />
+
+        <EditText
+            android:id="@+id/activity_maps_textview_location2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="Açıklama ekle..." />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/content_bg">
+
+        <LinearLayout
+            android:id="@+id/lineer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/activity_maps_textview_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Şehir ara..." />
+
+            <Button
+                android:id="@+id/activity_maps_btn_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:text="Ara" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/activity_maps_btn_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/button_bg"
+            android:text="Uydu" />
+
+        <fragment
+            android:id="@+id/activity_maps_mapview"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lineer"
+            android:layout_centerVertical="true"
+            android:layout_margin="3dp"
+            tools:context="com.example.alica.gezgin80.MapsActivity" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

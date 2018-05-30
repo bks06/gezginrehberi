@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context="com.example.alica.gezgin80.SuggestionsFragment"
+    android:background="#EAEAFF">
+
+    <ListView
+        android:id="@+id/fragment_suggestions_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true" />
+</LinearLayout>

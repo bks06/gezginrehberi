@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_TopSuggestion"
+
+            android:title="TOP 10" />
+        <item
+            android:id="@+id/nav_NewestSuggestion"
+
+            android:title="En Yeniler" />
+        <item
+            android:id="@+id/nav_GezginMetre"
+
+            android:title="Gezgin Metre" />
+        <item
+            android:id="@+id/nav_AddSuggestion"
+
+            android:title="Sen de Ekle" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_About"
+
+                android:title="Hakkında" />
+            <item
+                android:id="@+id/nav_Logout"
+
+                android:title="Çıkış" />
+
+        </menu>
+    </item>
+
+</menu>
